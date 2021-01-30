@@ -6,6 +6,7 @@ public class isPerfect {
         int result = isPefectSquare(15);
         System.out.print(result);
     }
+    // a function that returns the next perfect square of the given integer n.
     static int isPefectSquare(int n){
         if(n<0){
             return 0;
