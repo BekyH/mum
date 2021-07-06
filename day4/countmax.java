@@ -1,7 +1,7 @@
 public class countmax {
 
     public static void main(String[] args){
-        int [] a = {1,2,3,4,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,6,3,4,5,6,4,5,6,5,6,3,2,1,2,4,6};
+        int [] a = {1,2,3,4,5,3,5,2,4,5,3,4};
         System.out.println(Maxcount(a));
     }
     public static int Maxcount(int[] a){
