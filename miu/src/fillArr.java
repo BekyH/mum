@@ -2,7 +2,7 @@ public class fillArr {
 
     public static void main(String[] args) {
         int [] arr = {1,2,3,5,9,12,-2,-1};
-        int [] res = fill(arr,1,arr.length);
+        int [] res = fill(arr,3,arr.length);
         for(int num:res){
             System.out.print(num + " ");
         }
